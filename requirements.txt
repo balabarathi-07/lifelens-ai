@@ -1,0 +1,7 @@
+fastapi>=0.110
+uvicorn>=0.29
+numpy>=1.26
+opencv-python-headless>=4.9
+onnxruntime>=1.18        # On Snapdragon Windows: install the QNN-enabled build instead (see docs/deployment.md)
+psutil>=5.9
+httpx>=0.27              # only for tests (FastAPI TestClient)
